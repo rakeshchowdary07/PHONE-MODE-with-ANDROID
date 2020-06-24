@@ -3,13 +3,13 @@
   
  - In real life, forgetting things are very common human tendency. Sometimes we may keep the things on our premises and we may forget about it. The same thing can happen with our mobiles. In that situation, this project is very helpful. In this project, just by sending a single message to our phone we are changing our phone mode to ringing or silent or vibrate whatever we want.
  
-## SOFTWARE REQUIREMENTS: -
+## Software Requirements
   - Java, Android Soap
   - Android SDK 1.5 or later
   - Eclipse Ganymede IDE
   - Operating System can be Windows XP, LINUX and Mac etc.
 
-## HARDWARE REQUIREMENTS: -
+## Hardware requirements
   - PROCESSOR: (min) P2 Processor
   - RAM              : (min) 128
   - HARD DISK : 100 MB
