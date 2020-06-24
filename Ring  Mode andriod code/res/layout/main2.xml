@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" 
+  android:id="@+id/scrollView1"
+   android:layout_height="fill_parent"
+   >
+<AbsoluteLayout 
+    android:id="@+id/AbsoluteLayout01"
+ android:layout_width="fill_parent"
+ 
+  android:layout_height="fill_parent" 
+  android:background="#ffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <TextView android:id="@+id/TextView01"
+   android:text="SWITCH TO SILENT"
+    android:layout_width="wrap_content"
+     android:layout_y="50dip"
+     android:textColor="#f88017"
+     android:focusable="false"
+     
+      android:textSize="6.5pt"
+      android:textStyle="bold"
+      android:layout_x="35dip"
+       android:layout_height="wrap_content">
+       </TextView>
+<TextView android:id="@+id/TextView02"
+ android:text="SWITCH TO RING" 
+ android:textColor="#f88017"
+   android:focusable="false"
+ android:textStyle="bold"
+ android:layout_width="wrap_content" 
+ android:layout_y="110dip" 
+ android:textSize="6.5pt"
+ android:layout_x="35dip"
+  android:layout_height="wrap_content">
+  </TextView>
+<TextView android:id="@+id/TextView03"
+ android:text="SWITCH TO VIBRATE" 
+ android:layout_width="wrap_content"
+  android:layout_y="175dip" 
+    android:focusable="false"
+  android:textColor="#f88017"
+   android:textStyle="bold"
+   android:textSize="6.5pt"
+  android:layout_x="35dip" 
+  android:layout_height="wrap_content"></TextView>
+<EditText android:id="@+id/silent" 
+android:layout_width="120px"
+ android:layout_y="35dip" 
+android:keepScreenOn="false"
+android:focusableInTouchMode="true"
+ android:text="" 
+ android:layout_x="175dip" 
+ android:layout_height="wrap_content">
+ </EditText>
+<EditText android:id="@+id/ring" 
+android:layout_width="120px" 
+android:layout_y="95dip"
+ android:text=""
+
+  android:layout_x="175dip" 
+  android:layout_height="wrap_content">
+  </EditText>
+<EditText android:id="@+id/vibrate"
+ android:layout_width="120px"
+android:layout_y="155dip" 
+android:text=""
+android:focusableInTouchMode="true"
+
+ android:layout_x="175dip"
+  android:layout_height="wrap_content">
+  </EditText>
+<Button android:id="@+id/Save"
+ android:layout_width="120px"
+  android:text="Save" 
+  android:textColor="#fff"
+  android:layout_y="225dip"
+    
+  android:background="@drawable/reds"
+   android:layout_x="110dip" 
+   android:layout_height="80px">
+   </Button>
+   </AbsoluteLayout>
+</ScrollView>
